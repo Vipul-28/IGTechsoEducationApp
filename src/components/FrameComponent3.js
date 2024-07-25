@@ -30,7 +30,7 @@ const FrameComponent3 = () => {
           <img
             className="h-[72px] w-[72px] relative z-[1]"
             alt=""
-            src="/group-90.svg"
+            src="/group-90.svg" 
           />
           <div className="flex flex-col items-start justify-start pt-[13px] px-0 pb-0">
             <div className="relative capitalize z-[1]">

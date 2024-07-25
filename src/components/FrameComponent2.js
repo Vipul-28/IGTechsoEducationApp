@@ -14,7 +14,7 @@ const FrameComponent2 = () => {
             record. Trust us for innovative solutions and reliable support.
           </div>
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[60px_155px] min-h-[260px] mq450:gap-[19px] mq800:gap-[39px] mq1350:gap-[77px]">
+        <div className="self-stretch grid grid-cols-5 justify-items-center  min-h-[260px] mq450:gap-[29px]  mq450:grid-cols-2 mq800:grid-cols-4 mq600:grid-cols-3 mq800:gap-[39px] mq1350:gap-[77px]">
           <img
             className="h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""

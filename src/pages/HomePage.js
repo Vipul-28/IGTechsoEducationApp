@@ -7,9 +7,11 @@ import FrameComponent1 from "../components/FrameComponent1";
 import GroupComponent1 from "../components/GroupComponent1";
 import FrameComponent from "../components/FrameComponent";
 import GroupComponent from "../components/GroupComponent";
+import FrameSideNav from "../utils/FrameSideNav";
 
 const HomePage = () => {
   return (
+    <>
     <div className="w-full relative bg-ghostwhite overflow-hidden flex flex-col items-end justify-start pt-[0.3px] px-0 pb-[0.1px] box-border  text-left text-5xl text-black font-futura">
       <FrameComponent5 />
       <img
@@ -17,8 +19,8 @@ const HomePage = () => {
         alt=""
         src="/ellipse-3@2x.png"
       />
-      <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[1092.5px] box-border gap-[100px] max-w-full mq450:gap-[25px] mq800:gap-[50px] mq800:pb-[300px] mq800:box-border mq1125:pb-[461px] mq1125:box-border mq1350:pb-[710px] mq1350:box-border   w-screen">
-        <div className="flex flex-col items-start self-stretch justify-start max-w-full">
+      <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[132.5px] box-border gap-[100px] max-w-full mq450:gap-[25px] mq800:gap-[50px] mq800:pb-[300px] mq800:box-border mq1125:pb-[461px] mq1125:box-border mq1350:pb-[710px] mq1350:box-border   w-screen">
+        <div className="flex flex-col items-start self-stretch max-w-full">
           <FrameComponent4 />
           <FrameComponent3 />
         </div>
@@ -33,17 +35,20 @@ const HomePage = () => {
               corner of the world.
             </div>
           </div>
-      <BigLines />
         </div>
+    <BigLines /> 
       </div>
       <FrameComponent2 />
       <FrameComponent1 />
-      <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[100px] box-border gap-[100px] max-w-full mq450:gap-[25px] mq800:gap-[50px] mq800:pb-[65px] mq800:box-border">
+      <div className="self-stretch flex flex-col  items-center justify-center pt-0 px-0 pb-[100px] box-border gap-[100px] max-w-full mq450:gap-[25px] mq800:gap-[50px] mq800:pb-[65px] mq800:box-border">
         <GroupComponent1 />
         <FrameComponent />
       </div>
       <GroupComponent />
+      {/* <FrameSideNav /> */}
     </div>
+    </>
+
   );
 };
 
