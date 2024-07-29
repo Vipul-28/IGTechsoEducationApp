@@ -1,10 +1,11 @@
 import GroupComponent1 from "../components/GroupComponent1";
 import ProgressContainer from "../components/ProgressContainer";
 import PerformanceContainer from "../components/PerformanceContainer";
+import ProgressBarChart from "../utils/ProgressBarChart";
 
 const Dashboard = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start gap-[43px] leading-[normal] tracking-[normal] mq800:gap-[21px] mq1325:flex-wrap">
+    <div className="w-full relative bg-white overflow-x-hidden flex flex-row items-start justify-start gap-[43px] leading-[normal] tracking-[normal] mq800:gap-[21px] mq1325:flex-wrap">
       <GroupComponent1 />
       <main className="w-[1067px] flex flex-col items-start justify-start pt-[26px] px-0 pb-0 box-border max-w-full">
         <section className="self-stretch h-[959px] flex flex-col items-start justify-start pt-0 px-0 pb-[279px] box-border gap-[32px] max-w-full text-left text-9xl text-darkslategray-200 font-roboto-slab mq800:gap-[16px] mq800:pb-[118px] mq800:box-border mq1125:h-auto mq1125:pb-[181px] mq1125:box-border">
@@ -64,8 +65,11 @@ const Dashboard = () => {
               let’s learn something new today
             </div>
           </div>
-          <ProgressContainer />
-          <PerformanceContainer />
+          {/* <ProgressContainer /> */}
+          {/* <PerformanceContainer
+           /> */}
+           
+           <ProgressBarChart />
           <footer className="w-[875px] flex flex-col items-start justify-start py-0 pr-5 pl-0 box-border gap-[10px] max-w-full text-left text-5xl text-darkslategray-200 font-text-md-medium">
             <h1 className="relative m-0 font-semibold capitalize text-inherit font-inherit mq450:text-lgi">
               my courses

@@ -4,7 +4,8 @@ const FrameComponent3 = () => {
   return (
     <div
       className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full mt-[-60px] text-left text-mini text-darkslategray-200 font-text-md-medium `}
-    >
+      data-aos="zoom-out-left"
+   >
       <div className="w-[1129px] flex flex-row flex-wrap items-start justify-center gap-[43px] max-w-full z-[1] mq800:gap-[21px]">
         <GroupComponent2
           group87="/group-87.svg"

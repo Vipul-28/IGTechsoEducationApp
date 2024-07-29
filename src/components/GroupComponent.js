@@ -2,6 +2,9 @@
 const GroupComponent = () => {
   return (
     <div
+    data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
       className={`self-stretch bg-white flex flex-col items-center justify-start py-[49.9px] px-5 box-border gap-[60.2px] max-w-full text-left text-xl-7 text-darkslategray-200 font-roboto-slab mq450:pt-8 mq450:pb-8 mq450:box-border mq800:gap-[15px] mq1350:gap-[30px]`}
     >
       <div className="w-[1440px] h-[360px] relative bg-white hidden max-w-full" />
@@ -156,7 +159,7 @@ const GroupComponent = () => {
         <div className="self-stretch flex flex-row items-center justify-between max-w-full gap-[20px] mq800:flex-wrap">
           <div className="flex flex-row items-start justify-start gap-[15.8px] max-w-full mq450:flex-wrap">
             <div className="relative leading-[100%]">
-              © 2023 smartacademy.Ltd.
+              © 2024 smartacademy.Ltd.
             </div>
             <div className="relative leading-[100%] font-semibold inline-block min-w-[39px]">
               Terms

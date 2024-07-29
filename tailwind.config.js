@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+const {nextui} = require("@nextui-org/react");
+
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+],
   theme: {
     extend: {
       colors: {
@@ -51,58 +54,76 @@ module.exports = {
         "xl-9": "20.9px",
         "12xs": "1px",
       },
-    },
-    fontSize: {
-      xs: "12px",
-      "2xs": "11px",
-      "xl-7": "20.7px",
-      mid: "17px",
-      base: "16px",
-      sm: "14px",
-      xl: "20px",
-      "17xl": "36px",
-      "3xl": "22px",
-      "10xl": "29px",
-      lgi: "19px",
-      "5xl": "24px",
-      "9xl": "28px",
-      mini: "15px",
-      "3xs": "10px",
-      smi: "13px",
-      "lgi-3": "19.3px",
-      lg: "18px",
-      "41xl": "60px",
-      "29xl": "48px",
-      inherit: "inherit",
-    },
-    screens: {
-      mq1350: {
-        raw: "screen and (max-width: 1350px)",
+      fontSize: {
+        xs: "12px",
+        "2xs": "11px",
+        "xl-7": "20.7px",
+        mid: "17px",
+        base: "16px",
+        sm: "14px",
+        xl: "20px",
+        "17xl": "36px",
+        "3xl": "22px",
+        "10xl": "29px",
+        lgi: "19px",
+        "5xl": "24px",
+        "9xl": "28px",
+        mini: "15px",
+        "3xs": "10px",
+        smi: "13px",
+        "lgi-3": "19.3px",
+        lg: "18px",
+        "41xl": "60px",
+        "29xl": "48px",
+        inherit: "inherit",
       },
-      mq1125: {
-        raw: "screen and (max-width: 1125px)",
-      },
-      mq800: {
-        raw: "screen and (max-width: 800px)",
-      },
-      mq700: {
-        raw: "screen and (max-width: 700px)",
-      },
-      mq1000: {
-        raw: "screen and (max-width: 1000px)",
-      },
-      mq550: {
-        raw: "screen and (max-width: 550px)",
-      },
-      mq600: {
-        raw: "screen and (max-width: 600px)",
-      },
-      mq450: {
-        raw: "screen and (max-width: 450px)",
+      screens: {
+        // Default Tailwind breakpoints
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
+        // Custom breakpoints
+        mq1350: {
+          raw: "screen and (max-width: 1350px)",
+        },
+        mq1250: {
+          raw: "screen and (max-width: 1250px)",
+        },
+        mq1125: {
+          raw: "screen and (max-width: 1125px)",
+        },
+        mq800: {
+          raw: "screen and (max-width: 800px)",
+        },
+        mq850: {
+          raw: "screen and (max-width: 850px)",
+        },
+        mq900: {
+          raw: "screen and (max-width: 900px)",
+        },
+        mq700: {
+          raw: "screen and (max-width: 700px)",
+        },
+        mq1000: {
+          raw: "screen and (max-width: 1000px)",
+        },
+        mq550: {
+          raw: "screen and (max-width: 550px)",
+        },
+        mq600: {
+          raw: "screen and (max-width: 600px)",
+        },
+        mq450: {
+          raw: "screen and (max-width: 450px)",
+        },
       },
     },
   },
   corePlugins: {
     preflight: false,
   },
+  plugins: [nextui()],
+
 };
