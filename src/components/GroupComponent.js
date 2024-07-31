@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const GroupComponent = () => {
   return (
@@ -175,21 +176,28 @@ const GroupComponent = () => {
             </div>
           </div>
           <div className="flex flex-row items-start justify-start gap-[28px]">
+            <Link to="https://www.youtube.com/" >
             <img
               className="h-4 w-4 relative overflow-hidden shrink-0 min-h-[16px]"
               alt=""
               src="/youtube.svg"
+            
             />
+              </Link>
+              <Link to="https://www.facebook.com/">
             <img
               className="h-[15px] w-[15px] relative overflow-hidden shrink-0"
               alt=""
               src="/facebook.svg"
-            />
+            />  
+              </Link>
+              <Link to="https://www.instagram.com/?hl=en">
             <img
               className="h-[15px] w-[15px] relative overflow-hidden shrink-0"
               alt=""
               src="/instagram.svg"
-            />
+            />  
+              </Link>
           </div>
         </div>
       </div>

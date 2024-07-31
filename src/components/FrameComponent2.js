@@ -17,52 +17,52 @@ const FrameComponent2 = () => {
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[60px_155px] min-h-[260px] mq450:gap-[19px] mq800:gap-[39px] mq1350:gap-[77px]">
           <img
-            className="h-[100px] w-[100px] relative overflow-hidden shrink-0 hover:mb-10"
+            className="h-[100px] w-[100px] relative overflow-hidden shrink-0 hover:animate-appearance-in"
             alt=""
             src="/logo-collection.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection1.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection2.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection3.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection4.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection5.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection6.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection7.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection8.svg"
           />
           <img
-            className="hover:mb-10 h-[100px] w-[100px] relative overflow-hidden shrink-0"
+            className="hover:animate-appearance-in h-[100px] w-[100px] relative overflow-hidden shrink-0"
             alt=""
             src="/logo-collection2.svg"
           />

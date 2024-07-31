@@ -4,7 +4,7 @@ import BgLinesCatCard from './BgLinesCatCard'
 const BgLinesCard = () => {
 
     return (
-        <div className='grid grid-cols-2 gap-[43px] md:grid-cols-3 lg:grid-cols-4 lg:gap-[43px]'>
+        <div className='grid grid-cols-2  relative left-4 md:grid-cols-3 lg:grid-cols-4 mq1400:ml-[180px]       mq1400:mr-[200px]  mr-[250px]  ml-[100px] mq1350:m-auto '>
                 <BgLinesCatCard imgsrc={"/rectangle-45@2x.png"} title={"Design"} />
                 <BgLinesCatCard imgsrc={"/rectangle-46@2x.png"} title={"Web Development"} />
                 <BgLinesCatCard imgsrc={"/rectangle-47@2x.png"} title={"App Develpoment"} />

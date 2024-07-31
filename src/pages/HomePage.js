@@ -33,7 +33,7 @@ const HomePage = () => {
         alt=""
         src="/ellipse-3@2x.png"
       />
-      <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[132.5px] box-border gap-[100px] max-w-full  mq800:gap-[50px] mq800:pb-[300px] mq800:box-border  mq1125:box-border mq1350:box-border ">
+      <div className="m-y-0 self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[132.5px] box-border gap-[100px] max-w-full  mq800:gap-[50px] mq800:pb-[300px] mq800:box-border  mq1125:box-border mq1350:box-border ">
         <div className="flex flex-col items-start self-stretch max-w-full ">
           <FrameComponent4 />
           <FrameComponent3 />
@@ -60,9 +60,13 @@ const HomePage = () => {
 
  
              <FrameComponent2 />
+             <div className="bg-[#1C1C1C] ">
       <FrameComponent1 />
-
+             </div>
+<div className="w-screen [background:linear-gradient(180deg,_#9c79b3_48.52%,_#8a61a5_75.96%)]">
+  
         <GroupComponent1 />
+</div>
       <div className="self-stretch flex flex-col  items-center justify-center pt-0 px-0 pb-[100px] box-border gap-[100px] max-w-full mq450:gap-[25px] mq800:gap-[50px] mq800:pb-[65px] mq800:box-border">
         <FrameComponent />
       </div>

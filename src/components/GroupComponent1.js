@@ -3,21 +3,21 @@ import Arrow from '../utils/Arrow'
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Checkbox, Input,Link} from "@nextui-org/react";
 import {MailIcon} from './MailIcon.jsx';
 import {LockIcon} from './LockIcon.jsx';
-
+import "./contact.css"
 const GroupComponent1 = () => {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
     return (
         <div 
         data-aos="zoom-out-up"
-        className='achieve overflow-hidden relative md:h-[250px] [background:linear-gradient(180deg,_#9c79b3_48.52%,_#8a61a5_75.96%)]  '>
+        className='achieve co:container  overflow-hidden relative md:h-[250px]  [background:linear-gradient(180deg,_#9c79b3_48.52%,_#8a61a5_75.96%)]  '>
             <Arrow className={"lg:top-19 lg:left-0  md:top-16 md:-left-14 hidden md:block"} />
             
-            <div className='relative flex flex-col md:flex-row'>
+            <div className='relative flex flex-col md:flex-row font-poppins'>
                 <div className='pt-5 px-[30px] xl:px-[155px] md:z-20'>
-                    <h3 className='my-2 text-xl font-medium text-white capitalize md:text-2xl'>
+                    <h3 className='my-2 text-xl font-medium leading-loose mt-[-8px] text-white capitalize md:text-2xl'>
                         achieve your goal with
-                        <p className='text-lg capitalize lg:text-xl'>smart academy</p>
+                        <p className='text-lg capitalize lg:text-xl mt-[-10px]'>smart academy</p>
                     </h3>
                     <p className='text-xs leading-5 text-white capitalize'>Lorem Ipsum is simply dummy text of the printing and type setting industry.<br className='hidden md:block' />
                         Lorem Ipsum has been the industry's standard dummy

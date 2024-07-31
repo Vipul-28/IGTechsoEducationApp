@@ -1,10 +1,11 @@
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Checkbox, Input,Link} from "@nextui-org/react";
 import {MailIcon} from './MailIcon.jsx';
 import {LockIcon} from './LockIcon.jsx';
+import { useState } from "react";
 
 const FrameComponent4 = () => {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
-
+  const [ani,setAni]=useState(false);
   return (
     <div
       className={`grid grid-flow-col justify-items-start`}
@@ -45,7 +46,7 @@ const FrameComponent4 = () => {
           <div className="self-stretch flex flex-col items-start justify-start mq800:ml-10     gap-[20.7px] max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[10px] max-w-full">
               <div className="self-stretch flex flex-col items-start justify-start gap-[5.6px]">
-                <b className="relative lowercase z-[1]">
+                <b className="relative lowercase z-[1] font-fuzzy-bubbles">
                   100% satisfaction guarantee
                 </b>
                 <b className="relative text-41xl leading-[80px] capitalize font-futura text-darkslategray-200 z-[1] mq450:text-17xl mq450:leading-[48px] mq800:text-29xl mq800:leading-[64px]">
@@ -53,11 +54,11 @@ const FrameComponent4 = () => {
                   <p className="m-0">our top instructors</p>
                 </b>
               </div>
-              <div className="relative text-lg leading-[30px] font-text-md-medium text-dimgray inline-block max-w-full z-[1]">
+              <div className="relative text-lg leading-[30px] font-text-md-medium text-dimgray inline-block max-w-full z-[1] font-Poppins">
                 <p className="m-0">
                   <span className="capitalize">{`Enhance `}</span>
                   <span className="lowercase">
-                    your skills with guidance from our premier instructors.
+                   your skills with guidance from our premier instructors.
                   </span>
                 </p>
                 <p className="m-0 lowercase">
@@ -83,15 +84,16 @@ const FrameComponent4 = () => {
                         className="w-6 h-6 relative overflow-hidden shrink-0 z-[1]"
                         alt=""
                         src="/video-1-traced1.svg"
+                        onClick={() => setAni(!ani)}
                       />
                     </div>
-                    <div className="relative leading-[30px] capitalize font-light inline-block min-w-[115px] z-[1]">
+                    <div className="relative leading-[30px] capitalize font-Poppins font-light inline-block min-w-[115px] z-[1]">
                       how it works
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="relative text-base capitalize text-dimgray z-[1]">
+              <div className="relative text-base capitalize text-dimgray font-poppins z-[1]">
                 <p className="m-0">trusted by over 5 million+ students</p>
                 <p className="m-0">worldwide since 2003</p>
               </div>
@@ -141,10 +143,18 @@ const FrameComponent4 = () => {
       src="/group-56.svg"
     />
     <img
-    className="relative max-w-full left-10 mq900:pr-[70px] mq900:left-0 mq550:pr-0"
+    // {
+    //   ani?
+    //   className={`relative max-w-full left-10 mq900:pr-[70px] mq900:left-0 mq550:pr-0`}
+    //   :
+    //   className={`relative max-w-full left-10 mq900:pr-[70px] mq900:left-0 mq550:pr-0`}
+
+    // }
+    className={`relative max-w-full left-10 mq900:pr-[70px] mq900:left-0 mq550:pr-0 animate-none ${ani && 'animate-pulse'}`}
+
     src="/group-54.png"
     alt=""
-    data-aos="zoom-out-up"
+    // data-aos="zoom-out-up"
   />
          </div>
         </div>

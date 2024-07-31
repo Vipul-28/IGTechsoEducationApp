@@ -137,19 +137,20 @@
 
 import React from 'react'
 import BgLinesCard from './BgLinesCard'
+import "./contact.css"
 
 const BgLines = () => {
     return (
-        <div className='mx-[10px] xl:mx-[240.5px]'
-        data-aos="fade-left"
+        <div className='co:container mq800:mt-[-250px] '
+        // data-aos="fade-left"
         // data-aos-offset="500"
         data-aos-duration="500"
         >
-           <div className='my-0'>
-                <h2 className='text-xl font-bold'>Our Top Categry</h2>
-                <p className='text-[15px]  capitalize text-[#666666]'>Explore global experts who are leading in their fields, offering unparalleled knowledge and <br /> guidance as top instructors from every corner of the world.</p></div>
+           <div className='mq1400:ml-[200px] ml-[120px] mq1350:m-auto'>
+                <h2 className='text-xl font-bold font-futura '>Our Top Categry</h2>
+                <p className='text-[15px]  capitalize text-[#666666] font-Poppins'>Explore global experts who are leading in their fields, offering unparalleled knowledge and <br /> guidance as top instructors from every corner of the world.</p></div>
             <div>
-                <BgLinesCard />
+                <BgLinesCard  />
             </div>
         </div>
     )

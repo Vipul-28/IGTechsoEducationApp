@@ -5,13 +5,13 @@ const ProgressBarChart = () => {
     {
       name: 'SU',
       uv: 0,
-      pv: 0,
+      pv: "8h",
       amt: 0,
     },
     {
       name: 'M',
       uv: 3000,
-      pv:   "2h",
+      pv:   "4h",
       amt: 2210,
     },
     {
@@ -29,19 +29,19 @@ const ProgressBarChart = () => {
     {
       name: 'T',
       uv: 1890,
-      // pv: 4800,
+      pv: "4h",
       amt: 2181,
     },
     {
       name: 'F',
       uv: 2390,
-      // pv: 3800,
+      pv: "2h",
       amt: 2500,
     },
     {
       name: 'S',
       uv: 3490,
-      pv: '',
+      pv: "8h",
       amt: 2100,
     },
   ];
@@ -83,7 +83,7 @@ const ProgressBarChart = () => {
         />
           <Tooltip />
           <Legend />
-          <Bar width={12} dataKey="pv" fill="#8884d8" background={{ fill: '#E9E3EC' }}  radius={[16, 16, 16, 16]}  />
+          <Bar width={12} dataKey="pv" fill="#8708C2" background={{ fill: '#E9E3EC' }}  radius={[16, 16, 16, 16]}  />
         </BarChart>
       </ResponsiveContainer>
   )

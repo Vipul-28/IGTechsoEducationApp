@@ -46,6 +46,7 @@ module.exports = {
         futura: "Futura",
         "fuzzy-bubbles": "'Fuzzy Bubbles'",
         montserrat: "Montserrat",
+        poppins:"Poppins"
       },
       borderRadius: {
         "3xs": "10px",
@@ -83,8 +84,14 @@ module.exports = {
         md: '768px',
         lg: '1024px',
         xl: '1280px',
-        '2xl': '1536px',
+        // '2xl': '1536px',
         // Custom breakpoints
+        mq1200:{
+          raw: "screen and (max-width:1600px)",
+        },
+        mq1400:{
+          raw: "screen and (min-width:1600px)",
+        },
         mq1350: {
           raw: "screen and (max-width: 1350px)",
         },

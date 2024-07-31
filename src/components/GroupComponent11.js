@@ -13,7 +13,7 @@ const GroupComponent1 = () => {
                 className="h-[33.3px] w-[42px] absolute !m-[0] top-[0px] right-[-13px] z-[1]"
                 loading="lazy"
                 alt=""
-                src="/group-11.svg"
+                src="dashboard/group-11.svg"
               />
               <a className="[text-decoration:none] relative lowercase font-semibold text-[inherit] z-[2] mq450:text-lg">
                 <p className="m-0">smart</p>
@@ -40,7 +40,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/calendar-month-fill1-wght400-grad0-opsz48-2-1.svg"
+                  src="dashboard/calendar-month-fill1-wght400-grad0-opsz48-2-1.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[75px]">
                   schedule
@@ -50,7 +50,7 @@ const GroupComponent1 = () => {
                 <img
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   alt=""
-                  src="/book-1-traced.svg"
+                  src="dashboard/book-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[66px]">
                   courses
@@ -61,7 +61,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/presentation-1-traced.svg"
+                  src="dashboard/presentation-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[69px]">
                   sessions
@@ -72,7 +72,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/piechart-1-traced.svg"
+                  src="dashboard/piechart-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[61px]">
                   reports
@@ -83,7 +83,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/teacher-1-traced.svg"
+                  src="dashboard/teacher-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[74px]">
                   teachers
@@ -94,7 +94,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/graduatehat-1-traced.svg"
+                  src="dashboard/graduatehat-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[71px]">
                   students
@@ -105,7 +105,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/group-1-traced.svg"
+                  src="dashboard/group-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[55px]">
                   teams
@@ -116,7 +116,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/funds-1-traced.svg"
+                  src="dashboard/funds-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[43px]">
                   sales
@@ -127,7 +127,7 @@ const GroupComponent1 = () => {
                   className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                   loading="lazy"
                   alt=""
-                  src="/setting-1-traced.svg"
+                  src="dashboard/setting-1-traced.svg"
                 />
                 <div className="relative capitalize inline-block min-w-[56px]">
                   setting
@@ -141,7 +141,7 @@ const GroupComponent1 = () => {
                 className="self-stretch h-[110.2px] relative max-w-full overflow-hidden shrink-0 object-contain z-[1]"
                 loading="lazy"
                 alt=""
-                src="/group-14@2x.png"
+                src="dashboard/group-14@2x.png"
               />
               <div className="self-stretch rounded-2xl bg-lavender-700 flex flex-col items-start justify-start pt-[20.6px] px-[17px] pb-[19.9px] gap-[26.2px] z-[2] mt-[-13.8px]">
                 <div className="w-[194px] h-[173.1px] relative rounded-2xl bg-lavender-700 hidden" />
