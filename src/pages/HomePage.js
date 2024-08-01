@@ -1,14 +1,14 @@
-import BigLines from "../components/BigLines";
-import FrameComponent5 from "../components/FrameComponent5";
-import FrameComponent4 from "../components/FrameComponent4";
-import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent2 from "../components/FrameComponent2";
-import FrameComponent1 from "../components/FrameComponent1";
-import GroupComponent1 from "../components/GroupComponent1";
-import FrameComponent from "../components/FrameComponent";
-import GroupComponent from "../components/GroupComponent";
+import BigLines from "../components/Home/BigLines";
+import FrameComponent5 from "../components/Home/FrameComponent5";
+import FrameComponent4 from "../components/Home/FrameComponent4";
+import FrameComponent3 from "../components/Home/FrameComponent3";
+import FrameComponent2 from "../components/Home/FrameComponent2";
+import FrameComponent1 from "../components/Home/FrameComponent1";
+import GroupComponent1 from "../components/Home/GroupComponent1";
+import FrameComponent from "../components/Home/FrameComponent";
+import GroupComponent from "../components/Home/GroupComponent";
 import FrameSideNav from "../utils/FrameSideNav";
-import BgLines1 from "../components/BgLines1";
+import BgLines1 from "../components/Home/BgLines1";
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css"

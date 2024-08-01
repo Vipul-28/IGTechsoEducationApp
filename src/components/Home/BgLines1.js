@@ -1,10 +1,10 @@
 import React from 'react'
-import Rectangle from '../utils/Rectangle'
-import Person from '../utils/Person'
-import Diamond from '../utils/Diamond'
-import Book from '../utils/Book'
-import Student from '../utils/Student'
-import Videos from '../utils/Video'
+import Rectangle from '../../utils/Rectangle'
+import Person from '../../utils/Person'
+import Diamond from '../../utils/Diamond'
+import Book from '../../utils/Book'
+import Student from '../../utils/Student'
+import Videos from '../../utils/Video'
 import "./contact.css"
 import CollageImages from './Collageimages'
 const BgLines1 = () => {

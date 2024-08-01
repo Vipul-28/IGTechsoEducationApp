@@ -1,6 +1,6 @@
-import GroupComponent11 from "../components/GroupComponent11";
-import ProgressContainer from "../components/ProgressContainer";
-import PerformanceContainer from "../components/PerformanceContainer";
+import GroupComponent11 from "../components/Dashboard_one/GroupComponent11";
+import ProgressContainer from "../components/Dashboard_one/ProgressContainer";
+import PerformanceContainer from "../components/Dashboard_one/PerformanceContainer";
 import ProgressBarChart from "../utils/ProgressBarChart";
 import BarLineChart from "../utils/BarLineChart";
 import { CiBellOn } from "react-icons/ci";
@@ -35,7 +35,7 @@ const Dashboard = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-start justify-start pt-[5px] px-0 pb-0">
-                  <ArrowUpward />
+                  <ArrowDownward />
                 </div>
               </div>
             </div>
@@ -190,3 +190,6 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
+
+

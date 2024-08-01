@@ -1,4 +1,4 @@
-import GroupComponent2 from "./GroupComponent2";
+import GroupComponent2 from "../Dashboard_one/GroupComponent2";
 
 const FrameComponent3 = () => {
   return (

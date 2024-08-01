@@ -1,5 +1,5 @@
 import React from 'react'
-import Arrow from '../utils/Arrow'
+import Arrow from '../../utils/Arrow'
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Checkbox, Input,Link} from "@nextui-org/react";
 import {MailIcon} from './MailIcon.jsx';
 import {LockIcon} from './LockIcon.jsx';

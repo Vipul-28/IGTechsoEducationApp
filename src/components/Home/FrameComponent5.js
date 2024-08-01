@@ -1,8 +1,8 @@
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
-import SearchButton from "../utils/SearchButton";
-import CategoriesButton from "../utils/CategoriesButton";
+import SearchButton from "../../utils/SearchButton";
+import CategoriesButton from "../../utils/CategoriesButton";
 import { IoCartOutline } from "react-icons/io5";
 import { IoIosMenu } from "react-icons/io";
 import { MdOutlineClose } from "react-icons/md";
